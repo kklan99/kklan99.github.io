@@ -1,0 +1,395 @@
+@font-face {
+	font-family:'Nova Proxima';
+	src: url(fonts/ProximaNova/proxima_nova_regular.otf);
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Nova Proxmia';
+	src: url(fonts/ProximaNova/proxima_nova_regular_italic.otf);
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Nova Proxima';
+	src: url(fonts/ProximaNova/proxima_nova_bold.otf);
+	font-weight: bold;
+}
+
+.navbar-fixed-top {
+	top: 0;
+	border-width: 0 0 1px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+}
+
+.navbar-buttons {
+	color:black;
+}
+
+.about-me-container {
+	background-image: url(https://bunkr-private-prod.s3.amazonaws.com/7/d/4/7d43a9c5-df68-440f-afb5-b833226eec0e_orig.jpg);
+	/*background-image: url(http://upload.wikimedia.org/wikipedia/commons/7/7f/UCBerkeleyCampus.jpg);*/
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin: 0;
+}
+
+.container-fluid .about-me {
+	padding-top: 50px;
+	background-color: rgba(0,0,0,0.1);
+	height:100%;
+	width: 100%;
+}
+
+.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(images/profile_pic.jpg) no-repeat;
+}
+
+.white {
+	font-family: 'Nova Proxima';
+	color: #FFF;
+}
+
+.black {
+	color: black;
+	font-family: 'Nova Proxima';
+}
+
+#about-me-title {
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#about-me-file {
+	font-size: 20px;
+}
+
+.about-me-text {
+	font-size: 20px;
+	text-align: center;	
+}
+
+#work-exp-title {
+	padding-top: 50px;
+	text-align: center;
+}
+
+#paypal-title {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#paypal-dates {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#paypal-description {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#sokikom-title {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#sokikom-dates {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#sokikom-description {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#projects-title {
+	padding-top: 50px;
+	text-align: center;
+}
+
+#finance-manager-title {
+	padding-top: 50px;
+	text-align: center;
+}
+
+#finance-manager-text {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#gitlet-title {
+	padding-top: 50px;
+	text-align: center;
+}
+
+#gitlet-text {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#scheme-title {
+	padding-top: 50px;
+	text-align: center;
+}
+
+#scheme-text {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#projects-disclaimer {
+	padding-top: 30px;
+	padding-bottom:20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#classwork-title {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.table {
+	width: 100%;
+	max-width: 100%
+	margin-bottom: 20px;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.classwork-row {
+	background-color: #D3D3D3;
+	color: black;
+	border: black;
+	font-size: 18px;
+	text-align: center;
+}
+
+.classwork-row:hover {
+	background-color: #1A2747;
+}
+
+td a {
+	color: black;
+
+}
+
+td a:hover{
+	color:white;
+	text-decoration: none;
+}
+
+tr:hover {
+	color:white;
+}
+
+#contact-title {
+	padding-top:50px;
+	text-align: left;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    line-height: 2em;
+    font-weight: 400;
+    margin: 0 0 0.75em;
+    text-align: center;
+}
+
+p {
+	font-size: 20px;
+}
+
+.info1-content {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	margin-top: 0;
+	padding-bottom: 50px;
+}
+
+.info2-content {
+	background-color: #1A2747;
+	height: 100%;
+	width: 100%;
+}
+
+.classwork-banner {
+	background-color: white;
+	height:100%;
+	width: 100%;
+
+}
+
+.contact-banner {
+	background-color: #1A2747; /*#9ad3de*/
+	height:250px;
+	width: 100%;
+}
+
+.icon {
+	display:block;
+    width:100px;
+    height:100px;
+    position:relative;
+    margin:42px auto;
+    background-size: auto;
+}
+
+#sokikom-icon {
+	display: block;
+	width: 200px;
+	height: 100px;
+	position:relative;
+    margin:42px auto;
+    background-size: auto;
+}
+
+h2 {
+	text-align: center;
+
+} 
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline-block;
+	margin-left:0 !important;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+/* footer social icons */
+
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoRss {
+	background-color: #D3D3D3;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoFacebook {
+	background-color: #D3D3D3;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoTwitter {
+	background-color: #D3D3D3;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoGoogle {
+	background-color: #D3D3D3;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoVimeo {
+	background-color: #D3D3D3;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoLinkedin {
+	background-color: #D3D3D3;
+}
+.social-network a.icoMail:hover {
+	background-color:#f39c12;
+}
+.social-network a.icoMail {
+	background-color: #D3D3D3;
+}
+.social-network a.icoGithub:hover {
+	background-color: #ffa500;
+}
+.social-network a.icoGithub {
+	background-color: #D3D3D3;
+}
+
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, .social-network a.icoGithub i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoMail:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+	display: inline-block;
+}

@@ -1,1 +1,173 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Kevin Lan</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="events.js"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+        <div class = "navbar-header"> 
+            <a class = "navbar-brand navbar-buttons" href = "#"> Kevin Lan </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class = "nav navbar-nav">
+            <li>
+              <a href="#about" class="navbar-buttons" id="about-tab">About</a>
+            </li>
+            <li>
+              <a href="#work-exp" class="navbar-buttons" id="work-tab">Work Experience</a>
+            </li>
+            <li>
+              <a href="#projects" class="navbar-buttons" id="projects-tab">Projects</a>
+            </li>
+            <li>
+              <a href="courses" class="navbar-buttons" id="courses-tab">Courses</a>
+            </li>
+            <li>
+              <a href="#contact" class="navbar-buttons" id="contact-tab">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid about-me-container" id="about">
+      <div class="col-md-8 col-md-offset-2" class="about-me-container">
+      <br>
+        <h1 class="white" id = "about-me-title">Kevin Lan</h1>
+        <h2 class='white' id = "about-me-date">UC Berkeley Computer Science, 2018</h2>
+        <p class='white' class="about-me-text">Hi there! My name is Kevin Lan, a sophomore at UC Berkeley studying computer science. I grew up in the heart of the silicon valley, and have always been passionate about building software! This summer, I hope to pursue an internship in full stack web development, as that's the field of computer science that currently interests me the most!</p>
+
+        <p class='white' class="about-me-text">In my free time, I like to work out, play tennis, watch movies, and just eat with friends (I'm a huge foodie). Feel free to contact me any time for any inquiries!  </p>
+      <br>
+        <p class='white' id  "about-me-text">
+      </div>
+    </div>
+
+    <div class="container-fluid info1-content">
+      <div class="work-exp">
+        <br>
+        <h1 class="black" id = "work-exp-title">Where I've Worked</h1>
+        <div class="col-md-6">
+          <a href="https://www.paypal.com/home" title="PayPal"><img class="icon" id="paypal-icon" src="https://www.paypalobjects.com/webstatic/icon/pp258.png"></a>
+          <h2 class="black" id="paypal-title">PayPal</h2>
+          <p class="black" id="paypal-dates"><i>June 2015 - August 2015</i></p>
+          <p class="black" id="paypal-description">At PayPal, I was tasked with writing the strategies for their risk decision engine, specifically a broad high-approval strategy and a specific fallback strategy that focused on declining transactions. Throughout the internship, I was able to improve my segment of the strategy by 50%, and consequently it was actually implemented in their live decision engine. Additionally, I had the opportunity to work on a web application in node that allowed users to sign onto their Teradata databases and use the fastload bash command through a web interface.</p>
+        </div>
+        <div class="col-md-6">
+          <a href="https://www.sokikom.com" title="Sokikom"><img class="icon" id="sokikom-icon" src="https://d2viahbpltxu1k.cloudfront.net/skin/frontend/images/sokikom.png"></a>
+          <h2 class="black" id="sokikom-title">Sokikom</h2>
+          <p class="black" id="sokikom-dates"><i>September 2013 - August 2014</i></p>
+          <p class="black" id="sokikom-description">As a software Engineering Intern at Sokikom, I was tasked with the testing automation of their teacher-side client interface. Using the Selenium API on Java, I was able to write a suit of test cases that automated 70% of their browser testing. Additionally, this is where I got exposure to SQL, in which I managed and help write tables to revamp their table schema.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid info2-content">
+      <div class="projects">
+        <h1 class="white" id = "projects-title">My Projects</h1>
+        <div class="col-md-4">
+          <h2 class='white' id="finance-manager-title">Finance Manager</h2>
+          <p class='white' id="finance-manager-text">Finance Manager is my newest project in development, and my first web application that I have worked on. After working with millions of rows of transaction level data at PayPal, I was inspired to build my own web app that could track a user's payments, and help them better manager their money. I am using a mysql database for my data source as well as node.js for my server. I hope to finish this project before the fall semester ends! </p>
+        </div>
+        <div class="col-md-4">
+          <h2 class='white' id="gitlet-title">Gitlet</h2>
+          <p class='white' id="gitlet-text">Gitlet is one of my favorite class projects that I have worked on in Berkeley. I remember when I was first introduced to git, I had no idea what it was or how it worked. However, through my progress in my Data Structures class, I was able to design a branching linked-list structure that could support the add, commit, remove, branch, checkout, merge, and rebase functionalities of git in my own little gitlet app!</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class='white' id="scheme-title">Scheme</h2>
+          <p class='white' id="scheme-text">This scheme interpretor, in my opinion, is one of the coolest projects any introductory computer science class can offer to students. This project taught us all about reading, parsing, and evaluating Scheme expressions. My Interpretor can handle symbols, built-in procedures as well as user-defined procedures, definitions, and lambda expressions.</p>
+        </div>
+        <div class="col-md-12">
+          <p class='white' id="projects-disclaimer">Currently, I do not have a public repository on Github, as Gitlet and Scheme are two school projects that are still used by the classes I took. They are available, however, upon request if you are interested in seeing my code. Look forward to my Finance Manager web application which I intend on pushing sometime this semester! </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid classwork-banner">
+      <div class="col-xs-8 col-xs-offset-2">
+        <h1 class="black" id="classwork-title">Classwork</h1>
+        <br>
+        <br>
+        <br>
+        <table class="table table-bordered classwork-table">
+          <tbody>
+            <tr class="classwork-row">
+              <td>CS61A</td>
+              <td><a href="http://cs61a.org/">The Structure and Interpretation of Computer Programs</a></td>
+              <td>Fall 2014</td>
+            </tr>
+            <tr class="classwork-row">
+              <td>CS61B</td>
+              <td><a href="https://berkeley-cs61b.github.io/public_html/">Data Structures</a></td>
+              <td>Spring 2015</td>
+            </tr>
+            <tr class="classwork-row">
+              <td>CS61C</td>
+              <td><a href="http://www-inst.eecs.berkeley.edu/~cs61c/fa15/">Great Ideas in Computer Architecture (Machine Structures)</a></td>
+              <td>Fall 2015</td>
+            </tr>
+            <tr class="classwork-row">
+              <td>CS70</td>
+              <td><a href="http://inst.eecs.berkeley.edu/~cs70/fa15/">Discreet Math and Probability</a></td>
+              <td>Fall 2015</td>
+            </tr>
+            <tr class="classwork-row">
+              <td>MATH54</td>
+              <td><a href="https://math.berkeley.edu/~lpachter/courses/math54_Spring_2015/">Linear Algebra and Differential Equations</a></td>
+              <td>Spring 2015</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+
+    <div class="contact-banner">
+      <div class="col-xs-8 col-xs-offset-2">
+        <h1 class="white" id = "contact-title">Connect With Me: </h1>
+        <ul class="social-network social-circle">
+            <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+            <li><a href="https://www.facebook.com/kevkevlan" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.google.com/+KevinLanTheOriginal" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/kklan99" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="mailto:kklan99@gmail.com" class="icoMail" title="e-mail"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://www.github.com/kklan99" class="icoGithub" title="GitHub"><i class="fa fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+  </body>
+</html>
